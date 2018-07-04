@@ -1,6 +1,6 @@
 # Site settings
 # -------------
-baseurl : /html-css # the subpath of your site, e.g. /blog
+baseurl : /cms-development # the subpath of your site, e.g. /blog
 host    : 127.0.0.1
 port    : 4109
 
