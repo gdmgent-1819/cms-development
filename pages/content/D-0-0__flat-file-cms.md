@@ -6,4 +6,4 @@ permalink: flat-file-cms/
 
 # Get ready for the launch
 
-[http://lmgtfy.com/?q=flat+file+cms](Wat is Flat File CMS)
+[Wat is Flat File CMS](http://lmgtfy.com/?q=flat+file+cms)
