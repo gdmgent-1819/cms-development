@@ -29,7 +29,7 @@ Configuratie phpMyAdmin
 ---------------------
 
 Nadat de broncode gedownload is, moet er een database worden aangemaakt.
-Ga via MAMP naar PhpMyAdmin ( mogelijks: [http://localhost:8888/phpMyAdmin/?lang=en](http://localhost:8888/phpMyAdmin) )  
+Ga via MAMP naar PhpMyAdmin ( mogelijks: [http://localhost:8888/phpMyAdmin/?lang=en](http://localhost:8888/phpMyAdmin) )    
 Maak een nieuwe db aan met de naam: `dbwp_gdm`.
 
 {% include shared/figure.html src="https://www.arteveldehogeschool.be/campusGDM/gdmgent/cms/wp/create_db.png" alt="Create DB" caption="Create database" %}
@@ -39,8 +39,8 @@ Installatie
 ------------
 
 Je kan surfen naar je lokale map en de configuratieprocedure doorlopen.  
-Installatie pagina: http://localhost:8888/gdm/  
-Doorloop de installatie procedure
+Installatie pagina: http://localhost:8888/gdm/    
+Doorloop de installatie procedure.  
 
 
  {% include shared/figure.html src="https://www.arteveldehogeschool.be/campusGDM/gdmgent/cms/wp/installatie_1.png" alt="Installatie WP" caption="Installatie WP" %}
