@@ -29,31 +29,21 @@ Configuratie phpMyAdmin
 ---------------------
 
 Nadat de broncode gedownload is, moet er een database worden aangemaakt.
-Ga via MAMP naar PhpMyAdmin ( mogelijks: [http://localhost:8888/phpMyAdmin/?lang=en](http://localhost:8888/phpMyAdmin) )
+Ga via MAMP naar PhpMyAdmin ( mogelijks: [http://localhost:8888/phpMyAdmin/?lang=en](http://localhost:8888/phpMyAdmin) )  
 Maak een nieuwe db aan met de naam: `dbwp_gdm`.
 
 {% include shared/figure.html src="https://www.arteveldehogeschool.be/campusGDM/gdmgent/cms/wp/create_db.png" alt="Create DB" caption="Create database" %}
 
 
-### Via de browser
-
-De configuratie kan je ook via WP-CLI doen,   
-Of je kan gewoon surfen naar je lokale map en de configuratieprocedure doorlopen.
-
- {% include shared/figure.html src="https://www.arteveldehogeschool.be/campusGDM/gdmgent/cms/wp/installatie_1.png" alt="Installatie WP" caption="Installatie WP" %}
-
-
 Installatie
 ------------
 
-Nadat de configuratie voltooid is, kan de installatie beginnen.
+Je kan surfen naar je lokale map en de configuratieprocedure doorlopen.  
+Installatie pagina: http://localhost:8888/gdm/  
+Doorloop de installatie procedure
 
-|               Veld | Waarde                  |
-|-------------------:|-------------------------|
-|   **Websitetitel** | `GDM` |
-| **Gebruikersnaam** | `gdm_gebruiker`         |
-|     **Wachtwoord** | `gdm_pass`        |
-|    **E-mailadres** | `eigen emailadres artevelde`    |
+
+ {% include shared/figure.html src="https://www.arteveldehogeschool.be/campusGDM/gdmgent/cms/wp/installatie_1.png" alt="Installatie WP" caption="Installatie WP" %}
 
 |                        Veld | Waarde            |
 |----------------------------:|-------------------|
@@ -64,16 +54,18 @@ Nadat de configuratie voltooid is, kan de installatie beginnen.
 |             **Tabelprefix** | `dbwp_`             |
 
 {:.table .table-striped}
+
+ {% include shared/figure.html src="https://www.arteveldehogeschool.be/campusGDM/gdmgent/cms/wp/installatie_2.png" alt="Installatie WP" caption="Installatie WP" %}
+
+|               Veld | Waarde                  |
+|-------------------:|-------------------------|
+|   **Websitetitel** | `GDM` |
+| **Gebruikersnaam** | `gdm_gebruiker`         |
+|     **Wachtwoord** | `gdm_pass`        |
+|    **E-mailadres** | `eigen emailadres artevelde`    |
 {:.table .table-striped}
 
-### Manier 1 (via browser)
-
-![Installatieproces in de browser 00]({{ site.baseurl }}/images/installatie/installatieproces.00.png "Installatieproces in de browser"){:.screenshot}
-
-![Installatieproces in de browser 01]({{ site.baseurl }}/images/installatie/installatieproces.01.png "Installatieproces in de browser"){:.screenshot}
-
-![Installatieproces in de browser 02]({{ site.baseurl }}/images/installatie/installatieproces.02.png "Installatieproces in de browser"){:.screenshot}
-
+ {% include shared/figure.html src="https://www.arteveldehogeschool.be/campusGDM/gdmgent/cms/wp/installatie_3.png" alt="Installatie WP" caption="Installatie WP" %}
 
 
 Inloggen
@@ -81,7 +73,7 @@ Inloggen
 
 Na de installatie ziet de **frontoffice** (wat bezoekers te zien krijgen) website er zo uit:
 
-![Website]({{ site.baseurl }}/images/installatie/website.png "Website"){:.screenshot}
+ {% include shared/figure.html src="https://www.arteveldehogeschool.be/campusGDM/gdmgent/cms/wp/installatie_4.png" alt="Installatie WP" caption="Installatie WP" %}
 
 We kunnen inloggen op de **backoffice** (wat beheerders te zien krijgen) met de WP-gebruikersgegevens.
 
@@ -91,8 +83,4 @@ We kunnen inloggen op de **backoffice** (wat beheerders te zien krijgen) met de 
 |     **Wachtwoord** | `gdm_pass` |
 {:.table .table-striped}
 
-
-![Inlogformulier]({{ site.baseurl }}/images/installatie/inloggen.00.png "Inlogformulier"){:.screenshot}
-
-![WordPress Dashboard]({{ site.baseurl }}/images/installatie/inloggen.01.png "WordPress Dashboard"){:.screenshot}
-
+ {% include shared/figure.html src="https://www.arteveldehogeschool.be/campusGDM/gdmgent/cms/wp/installatie_5.png" alt="Inloggen WP" caption="Inloggen WP" %}
