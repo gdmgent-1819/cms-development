@@ -16,21 +16,24 @@ Broncode
 
 ### Via de website
 
-Je kan de broncode (van de Nederlandstalige versie) downloaden van [Wordpress download](https://nl.wordpress.org/download/) en het bestand decomprimeren in de map `wordpress`.
+Je kan de broncode (van de Nederlandstalige versie) downloaden van [nl.wordpress.org](https://nl.wordpress.org/download/) en het bestand decomprimeren in de map `wordpress`.
 
 In het voorbeeld maken we een wp-installatie voor een GDM-website.
 
-Open de bijhorende folder van de `MAMP`-installatie en lokaliseer de folder `htdocs`. Maak in de folder `htdocs` een nieuwe project map aan met de naam `gdm`. Kopieer de inhoud van de gedownloade folder `wordpress` naar de folder `htdocs`>`gdm`. 
+Open de bijhorende folder van de `MAMP`-installatie en lokaliseer de folder `htdocs`.  
+Maak in de folder `htdocs` een nieuwe project map aan met de naam `gdm`.  
+Kopieer de inhoud van de gedownloade folder `wordpress` naar de folder `htdocs`>`gdm`. 
 
 {% include shared/figure.html src="https://www.arteveldehogeschool.be/campusGDM/gdmgent/cms/wp/folder_mamp_installatie.png" alt="Folder structuur MAMP" caption="Folder structuur MAMP" %}
 
 
-Configuratie phpMyAdmin
----------------------
+DB aanmaken via phpMyAdmin
+-------------------------
 
-Nadat de broncode gedownload is, moet er een database worden aangemaakt.
-Ga via MAMP naar PhpMyAdmin ( mogelijks: [http://localhost:8888/phpMyAdmin/?lang=en](http://localhost:8888/phpMyAdmin) )    
-Maak een nieuwe db aan met de naam: `dbwp_gdm`.
+Nadat de broncode gedownload is, moet er een database worden aangemaakt.  
+Ga via de MAMP-startpagina naar phpMyAdmin. `Tools` > `phpMyAdmin`.  
+
+Maak een nieuwe db aan onder `database` > `create database` met de db-naam: `dbwp_gdm`.  
 
 {% include shared/figure.html src="https://www.arteveldehogeschool.be/campusGDM/gdmgent/cms/wp/create_db.png" alt="Create DB" caption="Create database" %}
 
