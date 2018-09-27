@@ -75,7 +75,7 @@ Inloggen
 
 Na de installatie ziet de **frontoffice** (wat bezoekers te zien krijgen) website er zo uit:
 
- {% include shared/figure.html src="https://www.arteveldehogeschool.be/campusGDM/gdmgent/cms/wp/installatie_4.png" alt="Installatie WP" caption="Installatie WP" %}
+ {% include shared/figure.html src="https://www.arteveldehogeschool.be/campusGDM/gdmgent/cms/wp/installatie_4.png" alt="Inloggen WP" caption="Inloggen WP" %}
 
 We kunnen inloggen op de **backoffice** (wat beheerders te zien krijgen) met de WP-gebruikersgegevens.
 
