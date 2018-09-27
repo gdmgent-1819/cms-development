@@ -52,7 +52,6 @@ Doorloop de installatie procedure.
 |     **Database-wachtwoord** | `root` |
 |           **Database-host** | `localhost`       |
 |             **Tabelprefix** | `dbwp_`             |
-
 {:.table .table-striped}
 
  {% include shared/figure.html src="https://www.arteveldehogeschool.be/campusGDM/gdmgent/cms/wp/installatie_2.png" alt="Installatie WP" caption="Installatie WP" %}
