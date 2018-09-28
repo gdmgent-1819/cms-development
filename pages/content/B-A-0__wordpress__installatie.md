@@ -31,7 +31,7 @@ DB aanmaken via phpMyAdmin
 -------------------------
 
 Nadat de broncode gedownload is, moet er een database worden aangemaakt.  
-Ga via de MAMP-startpagina naar phpMyAdmin. `Tools` > `phpMyAdmin`.  
+Ga via de applicatie van MAMP naar `Open WebStart page` - de MAMP-startpagina naar phpMyAdmin. `Tools` > `phpMyAdmin`.  
 
 Maak een nieuwe db aan onder `database` > `create database` met de db-naam: `dbwp_gdm`.  
 
