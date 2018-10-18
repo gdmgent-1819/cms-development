@@ -1,7 +1,7 @@
 ---
 title: Voorbeelden
 title_long: Thema Voorbeelden
-permalink: thema/voorbeelden/
+permalink: wordpress/thema/voorbeelden/
 ---
 
 Een van de beste manieren om de `code standards` goed te begrijpen is door te kijken naar voorbeelden van andere thema's die geschreven zijn volgens de WP-standaarden.

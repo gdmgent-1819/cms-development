@@ -1,7 +1,7 @@
 ---
 title: Thema
 title_long: Wordpress Thema
-permalink: theme/
+permalink: wordpress/theme/
 ---
 
 ## Begrip

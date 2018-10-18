@@ -1,7 +1,7 @@
 ---
 title: Template Files
 title_long: Template Files
-permalink: thema/template-files/
+permalink: wordpress/thema/template-files/
 ---
 
 ## Begrip
