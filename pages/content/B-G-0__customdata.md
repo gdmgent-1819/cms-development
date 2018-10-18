@@ -8,10 +8,15 @@ permalink: wordpress/custom-fields/
 
 Met de titel, editor, samenvatting, uitgelichte afbeelding en publicatiedatum komen we vaak niet toe om data op een gestructureerde manier te beheren.
 
-Als we een website zouden maken voor de mediatheek, is een custom post type "book" wel toepasselijk. Dit kunnen we gebruijen om alle boeken op te laden die beschikbaar zijn. Echter, het zou dan ook meteen handig zijn als er extra invulvelden voor die boeken voorhanden zijn. Denk maar aan isbn-nummer, aantal bladzijdes, auteur, ...  
+Als we een website zouden maken voor de mediatheek, is een custom post type "book" wel toepasselijk. Dit kunnen we gebruiken om alle boeken op te laden die beschikbaar zijn.   Echter, het zou dan ook meteen handig zijn als er extra invulvelden voor die boeken voorhanden zijn. Denk maar aan isbn-nummer, aantal bladzijdes, auteur, ...  
 Als we dergelijke informatie voor alle boeken in de editor zouden steken, is de kans groot dat het niet bij elk boek exact hetzelfde wordt weergegeven. Het is ook beter om die informatie apart te bewaren, zodat we het op verschillende manieren kunnen weergeven.
 
-Juist om die reden is custom data en custom fields van groot belang. Gelukkig heeft Wordpress hier een oplossing voor. Deze extra velden kan als **meta-informatie** bewaard worden.
+Juist om die reden is custom data en custom fields van groot belang. Gelukkig heeft Wordpress hier een oplossing voor door een ingebouwde Custom Fields optie.
+
+Deze extra velden worden als **meta-informatie** in de database bewaard, in de tabel wp_postmeta
+
+ {% include shared/figure.html src="https://s.cmsdevelopment.be/wp/wp_postmeta.png" alt="WP Postmeta Table" caption="De tabel wp_posmeta" %}
+
 
 ## Custom Fields (aangepaste velden)
 
@@ -43,6 +48,8 @@ Die key's kan je hergebruiken over de verschillende (custom) posts heen. Zo kunn
 
 ## Aangepaste velden weergeven
 
+### Alle velden weergeven
+
 Om alle meta-data te tonen in een template file, kan je `the_meta()` gebruiken, binnen **The Loop**.
 
 {% highlight php %}
@@ -58,4 +65,17 @@ Het resultaat in de broncode zou dan het volgende kunnen zijn:
 </ul>
 {% endhighlight %}
 
+### Een enkel veld weergeven
 
+Wil je slechts één van de metafields weergeven, kan je volgende functie gebruiken:
+
+{% highlight php %}
+get_post_meta($post_id, $key, $single);
+{% endhighlight %}
+
+> References
+> ---
+> - [Codex: Custom Fields](https://codex.wordpress.org/Custom_Fields)
+> - [Code Ref: get_post_meta()](https://codex.wordpress.org/Custom_Fields)
+> - [Code Ref: the_meta()](https://codex.wordpress.org/Template_Tags/the_meta)
+{:.card.card-source}
