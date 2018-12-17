@@ -7,7 +7,6 @@ permalink: wordpress/extrathemesupport
 Sidebar
 -------
 
-
 Met widgets kan je extra content (tekst, plugins, ...) toevoegen aan je WordPress theme.
 Meestal worden deze toegevoegd in onze sidebar. Hoewel we de overal in de theme kunnen definiëren.
 Net zoals bij menus dienen we hiervoor locaties aan te maken in de `functions.php` en op te roepen in onze theme.
@@ -51,8 +50,10 @@ Wil je nog een extra sidebar (of eerder widget zone) in je website dan kan je in
 
 Voeg een nieuwe widget zone toe ('footer-sidebar') en haal deze dan op in je footer.php aan de hand van `<?php dynamic_sidebar( 'footer-sidebar' ); ?>`
 
-[Wordpress Theme: Sidebar](https://developer.wordpress.org/themes/functionality/sidebars/){:.btn.btn-primary}
-
+> References
+> ---
+> - [Wordpress Theme: Sidebar](https://developer.wordpress.org/themes/functionality/sidebars/)
+{:.card.card-source}
 
 Custom Logo Support
 -------------------
@@ -73,16 +74,21 @@ if ( has_custom_logo() ) {
 ?>
 {% endhighlight %}{:data-file="header.php"}
 
+> References
+> ---
+> - [Wordpress Theme: Custom Logo](https://developer.wordpress.org/themes/functionality/custom-logo/)
+{:.card.card-source}
 
-[Wordpress Theme: Custom Logo](https://developer.wordpress.org/themes/functionality/custom-logo/){:.btn.btn-primary}
 
 Custom Header Support
 ---------------------
 
 Veel websites starten met een grote header afbeelding. Op alle pagina's of bijvoorbeeld enkel op de startpagina. Ook deze kunnen jullie toevoegen aan jullie thema.
 
-[Wordpress Theme: Custom Headers](https://developer.wordpress.org/themes/functionality/custom-headers/){:.btn.btn-primary}
-
+> References
+> ---
+> - [Wordpress Theme: Custom Headers](https://developer.wordpress.org/themes/functionality/custom-headers/)
+{:.card.card-source}
 
 Post thumbnails (Feature images)
 -------------------------------
@@ -110,4 +116,8 @@ the_post_thumbnail( array( 100, 100 ) ); // Other resolutions (height, width)
 ?>
 {% endhighlight %}{:data-file="home.php single.php ..."}
 
-[Lees verder over Post thumbnails](https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/){:.btn.btn-primary}
+
+> References
+> ---
+> - [Lees verder over Post thumbnails](https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/)
+{:.card.card-source}
